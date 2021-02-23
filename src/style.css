@@ -1,0 +1,419 @@
+@font-face {
+    font-family: 'Marvel';
+    src: url('Marvel-Regular.eot');
+    src: local('Marvel'), local('Marvel-Regular'),
+        url('/fonts/Marvel-Regular.eot') format('embedded-opentype'),
+        url('/fonts/Marvel-Regular.ttf') format('woff2'),
+        url('/fonts/Marvel-Regular.woff') format('woff'),
+        url('/fonts/Marvel-Regular.woff2') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Yandex Sans Text';
+    src: url('/fonts/YandexSansText-Medium.woff2');
+    src: local('Yandex Sans Text Medium'), local('YandexSansText-Medium'),
+        url('/fonts/YandexSansText-Medium.woff2') format('embedded-opentype'),
+        url('/fonts/YandexSansText-Medium.woff') format('woff2'),
+        url('/fonts/YandexSansText-Medium.eot') format('woff'),
+        url('/fonts/YandexSansText-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+body{
+    font-family: "Yandex Sans Text", 'Marvel', sans-serif;
+}
+li{
+    list-style: none;
+    text-decoration: none;
+}
+a{
+    list-style: none;
+    text-decoration: none;
+    color: #ffffff;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+header{
+    width: 100%;
+}
+header nav{
+    height: 47px;
+    background-color: #7d5e3c;
+    display: flex;
+} 
+header nav ul{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 0 128px;
+    margin: 0;
+}
+header nav ul a{
+    margin-left: 15px;
+}
+header nav ul .sity{
+    margin: 0;
+}
+header nav ul .call{
+    margin-left: 30px;
+}
+header .search{
+    background-color: #fefefe;
+    padding: 0 128px;
+    height: 100px;
+    align-items: center;
+    display: flex;
+    align-items: center;
+}
+header .search .musik{
+    width: 380px;   
+}
+header .search .musik h1{
+    font-size: 14px;
+    color: #777777;
+    font-family: "Marvel";
+    text-align: center;
+    vertical-align: middle;
+    font-style: italic
+}
+header .search .musik h1 span{
+    font-size: 35px;
+    color: #ff2d2d;
+}
+header hr{
+    margin: 0;
+}
+.arsenal{
+    padding: 0 132px;
+
+}
+.arsenal nav{
+    background-color: #fefefe;
+}
+.arsenal nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    margin: 0;
+
+}
+.arsenal nav ul li a{
+    display: block;
+    border-radius: 20px;   
+    height: 37px;
+    padding: 0 10px;
+    margin: 0;
+    line-height: 37px;
+    color: black;
+    font-size: 18px;
+    transition: 0.3s all;
+}
+.arsenal nav ul li .first{
+    color: #7d5e3c;
+    font-weight: 900;
+}
+.arsenal nav ul li a:hover{
+    background-color: #ff2d2d;
+    color: #ffffff;
+}
+.arsenal{
+    padding: 0;
+}
+.arsenal hr{
+    list-style: none;
+    margin: 0;
+    width: 100%;
+    height: 2px;
+    display: block;
+    background-color: #ff2d2d;
+    border: none;
+}
+.arsenal .content{
+    width: 100%;
+    height: 460px;
+    background: url(/img/bg_arsenal.jpg) 0 0 / 100% no-repeat;
+}
+.arsenal .content .left{
+    display: inline-block;
+    width: 250px;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.85);
+    margin-left: 210px;
+}
+.arsenal .content .left ul{
+    padding: 0 0 0 0px;
+    
+}
+
+.arsenal .content .left ul li a{
+    font-size: 18px;
+    line-height: 40px;
+    color: #ffffff;
+    margin-left: 20px;
+}
+.arsenal .content .left ul li:hover{
+    background-color: #7d5e3c;
+    opacity: 1;
+}
+
+.arsenal .content .reigth{
+    position: absolute;
+    display: inline-block;
+    width: 440px;
+    height: 460px;
+    background-color: #7d5e3c;
+    margin-left: 0px;
+}
+
+.arsenal .content .reigth ul li a{
+    font-size: 18px;
+    line-height: 40px;
+    color: #ffffff;
+}
+.arsenal .content .reigth ul li:hover{
+    background-color: #7d5e3c;
+    opacity: 1;
+}
+.arsenal .content .left ul li .bi:hover.reigth{
+    display: inline-block;
+}
+.toll .content{
+    width: 960px;
+}
+
+
+.slider_item{
+    min-width: 0;
+    text-align: center;
+}
+.slick-track{
+    display: flex;
+    align-items: flex-start;
+}
+.slick-list{
+    overflow: hidden;
+}
+.slider{
+    position: relative;
+    /* padding: 0 50px; */
+}
+.slider .slick-arrow{
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    font-size: 0;
+    width: 30px;
+    height: 50px;
+    border: none;
+    transform: translateY(-50%);
+}
+.slider .slick-arrow.slick-prev{
+    left: -50px;
+    background: url(/img/right_icon-icons.com_61212.svg) 0 0 / 100% no-repeat;
+}
+.slider .slick-arrow.slick-next{
+    right: -50px;
+    background: url(/img/right_icon-icons.com_61212.svg) 0 0 / 100% no-repeat;
+}
+.slider .slider_item{
+    display: flex-start;
+    height: 500px;
+}
+.slider_item .img_size {
+    width: 240px;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.slider .slider_item .text_item{
+    margin: 0 20px;
+    height: 140px;
+    color: black;
+}
+.slider .slider_item a{
+    color: black;
+}
+.slider .slider_item p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #444444;
+    text-align: center;
+}
+.slider .slider_item .price{
+    color: red;
+    font-size: 20px;
+}
+.slider .slider_item .price span{
+    text-decoration: line-through;
+    color: #444444;
+    font-size: 18px;
+}
+.bg_video .container{
+    max-height: 100vh;
+    overflow: hidden;
+    position: relative;
+    background: url(/img/logo.png) center center / cover no-repeat;
+}
+.bg_video .container:after{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    background: rgba(0, 0, 0, 0.4);
+    width: 80%;
+    height: 500px;
+    margin: 10%;
+}
+.bg_video .video{
+    position: relative;
+    height: 500px;
+    z-index: 1;
+}
+.bg_video .video .video_media{
+    width: 80%;
+    margin: 10%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.bg_video .container .content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    width: 80%;
+    margin: 10%;
+}
+.bg_video .container .content h1{
+    text-align: center;
+    color: black;
+}
+.bg_video .container .content p{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+.tringle{
+    width: 0;
+    height: 0;
+    border-right: 300px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 100px solid green;
+    overflow: hidden;
+    position: relative;
+}
+.tringl img{
+    position: absolute;
+    z-index: 5;
+    top: 0;
+    left: 0;
+}
+.bg_all{
+    width: 100%;
+    height: 100vh;
+}
+.bg_all .intro{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+.bg_all .intro video{
+    display: block;
+    width: 100vw;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+.bg_all .intro:before{
+    content: "";
+    display: block;
+    width: 100%;
+
+    background: rgba(0, 0, 0, 0.15);
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+}
+
+.bg_all .intro .intro_tringle{
+    position: absolute;
+    z-index: 3;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%, -50%, 0);
+    width: 0;
+    height: 0;
+    border-left: 200px solid transparent;
+    border-right: 200px solid transparent;
+    border-bottom: 300px solid rgba(100, 50, 121);
+}
+.bg_all .intro .intro_tringle p{
+    color: white;
+    display: block;
+    width: 200px;
+    height: 100px;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    top: 150px;
+    transform: translateX(-50%);
+    opacity: 2;
+}
+
+
+.tringlet{
+    width: 100%;
+    height: 500px;
+}
+.tringle_lines{
+    width: 600px;
+    margin: 0 auto;
+    height: 400px;
+    margin-top: 150px;
+    position: relative;
+}
+.tringle_line1{
+    display: block;
+    width: 284px;
+    height: 5px;
+    background-color: black;
+    transform: translateX(-42px) translateY(72px);
+    position: absolute;
+}
+.tringle_line2{
+    width: 200px;
+    height: 5px;
+    background-color: black;
+    transform: translateX(-70px) rotate(-45deg);
+    position: absolute;
+}
+.tringle_line3{
+    width: 200px;
+    height: 5px;
+    background-color: black;
+    transform: translateX(70px) rotate(45deg);
+    position: absolute;
+}
+.tringle_lines:after{
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    border-left: 200px solid transparent;
+    border-right: 200px solid transparent;
+    border-bottom: 200px solid red;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
