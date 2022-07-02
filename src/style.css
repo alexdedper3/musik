@@ -2,10 +2,10 @@
     font-family: 'Marvel';
     src: url('Marvel-Regular.eot');
     src: local('Marvel'), local('Marvel-Regular'),
-        url('/fonts/Marvel-Regular.eot') format('embedded-opentype'),
-        url('/fonts/Marvel-Regular.ttf') format('woff2'),
-        url('/fonts/Marvel-Regular.woff') format('woff'),
-        url('/fonts/Marvel-Regular.woff2') format('truetype');
+        url('../fonts/Marvel-Regular.eot') format('embedded-opentype'),
+        url('../fonts/Marvel-Regular.ttf') format('woff2'),
+        url('../fonts/Marvel-Regular.woff') format('woff'),
+        url('../fonts/Marvel-Regular.woff2') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -13,10 +13,10 @@
     font-family: 'Yandex Sans Text';
     src: url('/fonts/YandexSansText-Medium.woff2');
     src: local('Yandex Sans Text Medium'), local('YandexSansText-Medium'),
-        url('/fonts/YandexSansText-Medium.woff2') format('embedded-opentype'),
-        url('/fonts/YandexSansText-Medium.woff') format('woff2'),
-        url('/fonts/YandexSansText-Medium.eot') format('woff'),
-        url('/fonts/YandexSansText-Medium.ttf') format('truetype');
+        url('../fonts/YandexSansText-Medium.woff2') format('embedded-opentype'),
+        url('../fonts/YandexSansText-Medium.woff') format('woff2'),
+        url('../fonts/YandexSansText-Medium.eot') format('woff'),
+        url('../fonts/YandexSansText-Medium.ttf') format('truetype');
     font-weight: 500;
     font-style: normal;
 }
